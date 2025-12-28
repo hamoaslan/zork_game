@@ -1,0 +1,33 @@
+__pycache__/
+
+# No workspace settings
+.vscode
+.idea/
+
+# save files
+#*.save
+
+# I do hate OSX
+.DS_Store
+
+# json files
+#commands.json
+
+# Log files #
+*.log
+
+# Package Files #
+*.zip
+*.tar.gz
+*.rar
+
+# there can be some c or c++
+*.so
+*.o
+*.exe
+*.dll
+*.out
+
+# editors
+*~
+*.bak
