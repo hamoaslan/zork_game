@@ -21,7 +21,7 @@ class GUI(tk.Frame):
         height = 580
         self._root.geometry(f"{length}x{height}")
         self._root.minsize(length, height)
-        self.zork = Zork(False)
+        self.zork = Zork(True)
 
         # Window Name und Icon
         ico = Image.open('images/zork.png')

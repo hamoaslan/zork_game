@@ -39,9 +39,6 @@ def open_help(gui):
 
         map_window.mainloop()
 
-
-
-
 def open_commands(gui):
     global toplevel_open_commands
 

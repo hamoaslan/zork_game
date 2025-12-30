@@ -212,7 +212,6 @@ class Compass(tk.Frame):
         # displays the compass image on the canvas
         self.cv.create_image(0, 0, image=self._compass_image, anchor=tk.NW)
 
-
 if __name__ == "__main__":
     root = tk.Tk()
     compass = Compass(root)
